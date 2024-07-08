@@ -96,6 +96,28 @@ def log_processes():
 
 
 def main():
+    image = [
+"       ___________________                      ___     ___            ",
+"     /                    \                    /   \___/   \           ",
+"    |  _________________   |                  |  O       O  |          ",
+"    | |                 |  |                  |      V      |          ",
+"    | |  $ sudo check   |  |                   \    ___    /           ",
+"    | |  Checking...    |  |                    \_________/            ",
+"    | |  Status:[ OK? ] |  |                                           ",
+"    | |_________________|  |                      MoniTrack            ",
+"    |______________________|                                           ",
+"           /       \                     automatic monitoring script   ",
+"          /         \                            version 1.0           ",
+"         |___________|                        by Bohdan Misonh         "
+    ]
+    for line in image:
+        print(line)
+        time.sleep(0.2)  
+
+    print(" ")
+    print("Starting...")
+    print("--------------------------------------------------------------------")
+    
     next_check_times = {
         'network': time.time(),
         'disk_io': time.time(),
