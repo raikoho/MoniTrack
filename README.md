@@ -36,7 +36,8 @@ It is a powerful and versatile monitoring tool designed to keep an eye on your s
    ```bash
    git clone https://github.com/yourusername/MoniTrack.git
    cd MoniTrack
-   python MoniTrack.py
+   pip install -r requirements.txt
+   python3 MoniTrack.py
    ```
 
 ## 🧩 Dependencies
