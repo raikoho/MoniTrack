@@ -17,7 +17,7 @@ It is a powerful and versatile monitoring tool designed to keep an eye on your s
 - **Performance Insights**: Track read and write times, and I/O operations to evaluate disk performance.
 
 ### 🧠 System Load Overview
-- **CPU Usage**: Real-time monitoring of CPU usage to ensure optimal performance.
+- **CPU Usage**: Monitoring of CPU usage to ensure optimal performance.
 - **Memory Usage**: Insights into available and used memory to avoid bottlenecks.
 - **Disk Usage**: Track overall disk usage and available space to prevent storage issues.
 
