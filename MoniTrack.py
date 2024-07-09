@@ -4,7 +4,6 @@ import psutil
 import time
 from datetime import datetime
 
-# Change names to log files
 log_files = {
     'network': 'network_activity_log.txt',
     'disk_io': 'disk_io_log.txt',
@@ -20,11 +19,10 @@ intervals = {
     'process': 60  # Interval for proc monitoring
 }
 
-# Список процесів, які не потрібно відслідковувати
+# processes that should not be logged
 excluded_processes = {"explorer.exe", "svchost.exe", "System Idle Process"}
 
 
-# Моніторинг мережевої активності
 def log_network_activity():
     with open(log_files['network'], 'a') as f:
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
