@@ -29,12 +29,10 @@ It is a powerful and versatile monitoring tool designed to keep an eye on your s
 - **Flexible Monitoring**: Set custom intervals for different types of monitoring to suit your needs.
 - **Define safe processes**: Set your own processes that you trust to avoid writing them to log files.
 
-## Installation
-
- **Clone the Repository:**
+## Installation and start
 
    ```bash
-   git clone https://github.com/yourusername/MoniTrack.git
+   git clone https://github.com/raikoho/MoniTrack.git
    cd MoniTrack
    pip install -r requirements.txt
    python3 MoniTrack.py
