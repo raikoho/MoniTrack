@@ -4,7 +4,7 @@
 
 ![MoniTrack Banner](MoniTrack.png)
 
-It is a powerful and versatile monitoring tool designed to keep an eye on your system's health, security, and performance. Whether you're a security enthusiast, system administrator, or simply a tech-savvy user, MoniTrack provides comprehensive insights into your system's activities, resource usage, and potential threats.
+It is a powerful and versatile monitoring tool designed to keep an eye on your system's health, security, and performance. Whether you're a security enthusiast, system administrator, or simply a tech-savvy user, It provides comprehensive insights into your system's activities, resource usage, and potential threats.
 
 ## Features
 
