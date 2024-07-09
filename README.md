@@ -53,9 +53,9 @@ intervals = {
     'process': 60  # Interval for proc monitoring
 }
 ```
-Reduce the list of programs by adding safe processes to the exception. 
+Reduce the list of monitored programs by adding safe processes to the exception. 
 ```python
-excluded_processes  = {"explorer.exe", "svchost.exe", "System Idle Process"}  # Add here more
+excluded_processes  = {"explorer.exe", "svchost.exe", "System Idle Process", "chrome.exe",}  # Add here more
 ```
 Start **MoniTrack**.
 You can view all saved information in the main folder with the **script**:
